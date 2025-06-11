@@ -14,8 +14,8 @@ public class Exercicio09 {
 	System.out.println("Digite a segunda nota nota: ");
 	nota02 = input.nextDouble();
 	
-	media = nota01 + nota02 / 2;
+	media = (nota01 + nota02) / 2;
 	
-	System.out.printf ("A média do aluno é: %.2f", media);
+	System.out.println ("A média do aluno é:" + media);
  	}
 }
