@@ -3,8 +3,11 @@ package Fundamentos03;
 public class Exercicio01 {
  public static void main(String[] args) {
 	String str = new String();
+	String texto = "Hello World";
+	str = texto.replace("Hello","olá");
 	System.out.println(str);
-	
+	System.out.println(texto.charAt(5));
+	System.out.println(3+3+" "+str.trim());
 	
 	String s1 = "Hello";
 	String s2 = "HELLO";
